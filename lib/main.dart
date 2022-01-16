@@ -188,10 +188,10 @@ class HomePage extends StatelessWidget {
                         length = length/100;
                         girth = girth/100;
                         var weight = girth * girth * length * 69.3;
-                        var sumprice = weight * 112.50;
+                        var sumprice = weight * pricpig;
                         var dweight = (weight - (0.03 * weight)).round();
-                        var uweight = ((0.03 * weight) + weight).round();
                         var dsum = (sumprice - (0.03 * sumprice)).round();
+                        var uweight = ((0.03 * weight) + weight).round();
                         var usum = (sumprice + (0.03 * sumprice)).round();
 
                         showDialog(
